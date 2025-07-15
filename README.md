@@ -88,6 +88,15 @@ pnpm run preview
 
 svelte, sveltekit, threejs, threlte, vrm, 3d-avatar, ai-chat, text-to-speech, lipsync, phonemes, mixamo, animations, blockchain, solana, generative-ai, youtube-streaming
 
+## Contributing
+
+We welcome contributions! Before we can merge your first pull request you must sign our Contributor License Agreement (CLA). When you open a PR, GitHub will display a message from the CLA bot with a link to sign.
+
+- Individual contributors: see [docs/CLA_INDIVIDUAL.md](docs/CLA_INDIVIDUAL.md)
+- Companies/corporations: see [docs/CLA_CORPORATE.md](docs/CLA_CORPORATE.md)
+
+Once the CLA is signed, the status check will update automatically, and we’ll be able to review your contribution.
+
 ## License
 
 MIT (see LICENSE file)
