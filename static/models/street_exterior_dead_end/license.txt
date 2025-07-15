@@ -1,0 +1,11 @@
+Model Information:
+* title:	Street Exterior Dead End
+* source:	https://sketchfab.com/3d-models/street-exterior-dead-end-1836a0d439dd4f77bb777349288697d0
+* author:	ETBENO (https://sketchfab.com/yulaflibiskuvi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Street Exterior Dead End" (https://sketchfab.com/3d-models/street-exterior-dead-end-1836a0d439dd4f77bb777349288697d0) by ETBENO (https://sketchfab.com/yulaflibiskuvi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
