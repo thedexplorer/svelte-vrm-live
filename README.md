@@ -46,6 +46,20 @@ Phonemes mapped: A, AA, AH, AE, AO, AW, AY, E, EH, ER, EY, I, IH, IY, O, OH, OW,
    pnpm install
    ```
 
+### Environment Variables
+
+Set the following environment variables (for example, create a `.env` file in the project root):
+
+```bash
+# Google Generative AI
+GOOGLE_API_KEY=your_google_api_key
+
+# ElevenLabs Text-to-Speech
+ELEVENLABS_API_KEY=your_elevenlabs_api_key
+```
+
+These keys are required for the chat and text-to-speech features.
+
 ## Developing
 
 Start the development server:
