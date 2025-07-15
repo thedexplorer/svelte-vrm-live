@@ -11,7 +11,7 @@
 	let animationController = $state<AnimationController | null>(null);
 </script>
 
-<div class="flex min-h-screen flex-col items-center justify-center bg-gray-800 text-white">
+<div class="min-h-screen flex-1 items-center justify-center bg-gray-800 text-white">
 	<Scene>
 		{#snippet children()}
 			<VRMAvatar modelPath={avatarModelPath} bind:vrm={vrmInstance} bind:animationController />

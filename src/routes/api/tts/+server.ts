@@ -10,7 +10,7 @@ export const POST: RequestHandler = async ({ request }) => {
 	const apiKey = env.ELEVENLABS_API_KEY;
 	// setted up a default (non-premium) voice id for cheaper tts
 	// Premium voices are 10x more expensive than non-premium voices
-	const voiceId = 'bIHbv24MWmeRgasZH58o';
+	const voiceId = '3XOBzXhnDY98yeWQ3GdM';
 
 	if (!apiKey) {
 		console.error('ELEVENLABS_API_KEY is not set in environment variables.');

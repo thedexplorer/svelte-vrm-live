@@ -40,7 +40,13 @@ const model = genAI.getGenerativeModel({
 if (dev)
 	console.log('[API Send] Google AI Model initialized with system prompt and response schema.');
 
-export async function POST({ request, getClientAddress }: { request: Request; getClientAddress: () => string }) {
+export async function POST({
+	request,
+	getClientAddress
+}: {
+	request: Request;
+	getClientAddress: () => string;
+}) {
 	const clientIp = getClientAddress();
 	if (dev) console.log(`[API Send] POST request received from IP: ${clientIp}`);
 
@@ -89,8 +95,7 @@ export async function POST({ request, getClientAddress }: { request: Request; ge
 		id: crypto.randomUUID(),
 		role: 'user',
 		content: userMessageContent.trim(),
-		timestamp: Date.now(),
-
+		timestamp: Date.now()
 	};
 	if (dev) console.log('[API Send] Processing user message with ID:', userChatMessage.id);
 
@@ -139,7 +144,7 @@ export async function POST({ request, getClientAddress }: { request: Request; ge
 			id: crypto.randomUUID(),
 			role: 'avatar',
 			content: avatarText,
-			timestamp: Date.now(),
+			timestamp: Date.now()
 		};
 		if (dev)
 			console.log(
@@ -178,7 +183,7 @@ export async function POST({ request, getClientAddress }: { request: Request; ge
 			id: crypto.randomUUID(),
 			role: 'avatar',
 			content: errorMessage,
-			timestamp: Date.now(),
+			timestamp: Date.now()
 		};
 		if (dev)
 			console.log('[API Send] Generated error message from avatar. ID:', errorAvatarMessage.id);

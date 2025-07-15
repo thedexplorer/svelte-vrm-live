@@ -99,4 +99,4 @@ Once the CLA is signed, the status check will update automatically, and we’ll 
 
 ## License
 
-MIT (see LICENSE file)
+AGPL (see LICENSE file)

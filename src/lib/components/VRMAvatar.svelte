@@ -23,7 +23,7 @@
 
 	const animationPaths: AnimationPaths = {
 		angry: ['/animations/talking-angry.fbx', '/animations/talking-arguing.fbx'],
-		neutral: ['/animations/talking-neutral-1.fbx', '/animations/talking-neutral-2.fbx'],
+		neutral: ['/animations/talking-neutral-1.fbx'],
 		happy: ['/animations/talking-happy.fbx'],
 		funny: ['/animations/talking-funny.fbx'],
 		idle: [
