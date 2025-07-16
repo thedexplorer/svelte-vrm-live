@@ -2,6 +2,9 @@
 
 A SvelteKit application for live-streaming 3D VRM avatars with AI-powered chat, text-to-speech, animations, and blockchain integration.
 
+![Banner!](showcase.png 'Showcase')
+[Click to see showcase video](showcase.mp4)
+
 ## Features
 
 - Threlte/Three.js for 3D rendering
