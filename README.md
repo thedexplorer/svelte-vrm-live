@@ -1,6 +1,6 @@
 # Threlte Live - 3D VRM Avatar Streaming Platform
 
-A SvelteKit application for live-streaming 3D VRM avatars with AI-powered chat, text-to-speech, animations, and blockchain integration.
+A SvelteKit application for live-streaming 3D VRM avatars with AI-powered chat, text-to-speech, mixamo animations.
 
 ![Banner!](showcase.png 'Showcase')
 [Click to see showcase video](showcase.mp4)
